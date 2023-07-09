@@ -22,5 +22,5 @@
 :not(div[class*="userProfile"][class*="unThemed"]).theme-dark,
 :not(div[class*="userProfile"]).theme-light,
 div[class*="userProfile"][class*="unThemed"].theme-light {
-    --text-normal: rgba(var(--dm-white), 0.9);
+    --text-normal: rgba(var(--dm-white), 0.8);
 }
