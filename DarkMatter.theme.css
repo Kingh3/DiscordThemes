@@ -19,3 +19,8 @@
     --accent: 37, 172, 232;
     --accent-alt: 29, 101, 134;
 }
+:not(div[class*="userProfile"][class*="unThemed"]).theme-dark,
+:not(div[class*="userProfile"]).theme-light,
+div[class*="userProfile"][class*="unThemed"].theme-light {
+    --text-normal: rgba(var(--dm-white), 0.9);
+}
